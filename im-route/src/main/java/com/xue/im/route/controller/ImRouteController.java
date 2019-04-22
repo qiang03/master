@@ -24,7 +24,7 @@ public class ImRouteController {
   private ZKUtil zk;
   @Autowired
   private RedisTemplate<String ,String> redisTemplate;
-
+//
   //zk节点下标，高并发下
   private AtomicLong index = new AtomicLong();
   /**
